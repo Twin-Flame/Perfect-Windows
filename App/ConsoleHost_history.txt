@@ -44,6 +44,9 @@ choco install vagrant
 choco install vagrant-manager
 choco install rclone
 choco install rclonebrowser
+choco install fbreader
+choco install rocketdock
+choco install stardock-fences
 Get-History
 (Get-PSReadlineOption).HistorySavePath
 cp C:\Users\me\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt .\Desktop\
