@@ -47,6 +47,7 @@ choco install rclonebrowser
 choco install fbreader
 choco install rocketdock
 choco install stardock-fences
+choco install chromium
 Get-History
 (Get-PSReadlineOption).HistorySavePath
 cp C:\Users\me\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt .\Desktop\
