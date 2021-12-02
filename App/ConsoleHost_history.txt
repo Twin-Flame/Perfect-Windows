@@ -1,0 +1,49 @@
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+WARNING: You can safely ignore errors related to missing log files when
+  upgrading from a version of Chocolatey less than 0.9.9.
+  'Batch file could not be found' is also safe to ignore.
+  'The system cannot find the file specified' - also safe.
+chocolatey.nupkg file not installed in lib.
+ Attempting to locate it from bootstrapper.
+PATH environment variable does not have C:\ProgramData\chocolatey\bin in it. Adding...
+WARNING: Not setting tab completion: Profile file does not exist at
+'C:\Users\me\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1'.`
+Chocolatey (choco.exe) is now ready.
+You can call choco from anywhere, command line or powershell by typing choco.
+Run choco /? for a list of fu
+choco install googlechrome
+choco install workman
+cd .\Desktop\
+.\enable.bat
+choco install picotorrent
+# Start
+## changes the sshd service's startup type from manual to automatic.
+ Set-Service sshd -StartupType Automatic
+## starts the sshd service.
+ Start-Service sshd
+# Open Firewall
+ New-NetFirewallRule -Name sshd -DisplayName 'Allow SSH' -Enabled True -Direction Inbound -Protocol TCP -Action Allow -LocalPort 22
+choco install rust
+choco install golang
+choco install vscode-go
+choco install vscode
+choco install vscode-go
+choco install vscode-cpptools
+choco install vscode-ansible
+choco install goland
+choco install clion-ide
+choco install intellijidea-community
+choco install logisim-evolution
+choco install phpstorm
+choco install vlc
+choco install git
+choco install sourcetree
+choco install packer
+choco install packer-windows-plugins
+choco install vagrant
+choco install vagrant-manager
+choco install rclone
+choco install rclonebrowser
+Get-History
+(Get-PSReadlineOption).HistorySavePath
+cp C:\Users\me\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt .\Desktop\
